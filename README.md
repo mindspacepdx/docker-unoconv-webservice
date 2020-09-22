@@ -1,18 +1,18 @@
 # docker-node-unoconv
+Dockerimage to run unoconv as a webservice through [tfk-api-unoconv](https://github.com/zrrrzzt/tfk-api-unoconv)
+
 This Docker image combines the following Dockerfiles:
 - https://github.com/zrrrzzt/docker-unoconv-webservice
     - https://hub.docker.com/r/zrrrzzt/docker-unoconv-webservice
 - https://github.com/telemark/docker-node-unoconv
     - https://hub.docker.com/r/telemark/docker-node-unoconv
-    
-Dockerimage to run unoconv as a webservice through [tfk-api-unoconv](https://github.com/zrrrzzt/tfk-api-unoconv)
 
 ## Versions
 - OS: Alpine
 - Node: 12.x.x
 - Unconv: 0.7-1.1
 
-##The following instructions are taken from (https://github.com/zrrrzzt/docker-unoconv-webservice):
+## The following instructions are taken from (https://github.com/zrrrzzt/docker-unoconv-webservice):
 If you prefer a pre-build version it is available from [hub.docker.com](https://hub.docker.com/r/mindspacephx/unoconv-webservice)
 just do a regular pull
 
