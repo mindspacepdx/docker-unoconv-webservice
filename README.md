@@ -8,7 +8,7 @@ This Docker image combines the following Dockerfiles:
     - https://hub.docker.com/r/telemark/docker-node-unoconv
 
 ## Versions
-- OS: Alpine
+- OS: Debian - Buster Slim
 - Node: 12.x.x
 - Unconv: 0.7-1.1
 
